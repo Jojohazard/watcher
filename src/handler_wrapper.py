@@ -14,7 +14,7 @@ class HandlerWrapper:
         watch_file_deleted: bool = True,
         debounced: bool = True,
         debounce_delay: float = 0.3,
-        cooldown: float = 20.0,                  # NEW: cooldown period per file
+        cooldown: float = 10.0,                  # NEW: cooldown period per file
         include_patterns: list[str] = None,
         exclude_patterns: list[str] = None,
         watch_path: Path | None = None
