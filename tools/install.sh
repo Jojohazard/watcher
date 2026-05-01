@@ -5,7 +5,7 @@ apk add python3 py3-pip build-base python3-dev
 # Create and activate venv
 
 python3 -m venv .venv
-source .venv/bin/active
+source .venv/bin/activate
 
 # Install dependencies
 
